@@ -1,6 +1,6 @@
 # Applying Graph Convolution Networks to EEG Data for Diagnosis of Major Depressive Disorder
 
-Exploring different types of neural networks to predict Major Depressive Disorder (MDD) from EEG data, trained and tested on the HUSM dataset. These models include:
+Exploring different neural network architectures to predict Major Depressive Disorder (MDD) from EEG data, trained and tested on the HUSM dataset. We test the following models:
 
 * 7-layer basic neural network
 * Convolutional neural network
