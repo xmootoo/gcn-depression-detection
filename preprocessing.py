@@ -35,7 +35,6 @@ def move_files(source_directory):
     try:
         # List all files in the source directory
         files = [f for f in os.listdir(source_directory) if os.path.isfile(os.path.join(source_directory, f))]
-    
     except Exception as e:
         print(f"Could not list files in the source directory. Error: {e}")
         return
@@ -77,3 +76,7 @@ def move_files(source_directory):
         elif file.endswith("TASK.edf"):
             os.rename(os.path.join(hc_directory, file), os.path.join(hc_directory, "TASK", file))
 
+
+
+def filter():
+    pass
